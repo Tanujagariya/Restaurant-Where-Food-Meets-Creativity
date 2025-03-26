@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+}
+:root{
+         
+                  --h1:70px;
+                  --h2:60px;
+                  --h3:20px;
+                  --h4:12px;
+
+
+                  --p1:16px;
+                  --p2:13px;
+                  --p3:14px;
+                  --p4:21px;
+                  
+               /* use of font */
+                  --primary-font: 'Inter', sans-serif;  
+                  --secondary-font: 'David Libre', serif;
+                  /* styles for color  */
+                  --primary-color: #ff7f32;
+                  --secondary-color: #222;
+                  --accent-color: #fff;
+                  --background-color: #f8f8f8;
+                
+              }
+         
+/* style for headings  */
+h1{
+    font-size: var(--h1);
+    font-weight: 700;
+   
+}         
+h2{
+    font-size: var(--h2);
+    font-weight: 600;
+} 
+h3{
+    font-size: var(--h3);
+    font-weight: 700;
+}             
+h4{
+    font-size: var(--h4);
+    font-weight: 600;
+}  
+  
+
+
+ /* style for button */
+.btn {
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+}
+             
