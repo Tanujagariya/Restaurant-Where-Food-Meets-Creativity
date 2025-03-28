@@ -9,8 +9,8 @@
          
                   --h1:70px;
                   --h2:60px;
-                  --h3:20px;
-                  --h4:12px;
+                  --h3:50px;
+                 
 
 
                   --p1:16px;
@@ -26,6 +26,7 @@
                   --secondary-color: #222;
                   --accent-color: #fff;
                   --background-color: #f8f8f8;
+                  --text-color: #555;
                 
               }
          
@@ -67,4 +68,41 @@ h4{
     background-color: var(--secondary-color);
     color: var(--accent-color);
 }
-             
+
+/* mobile view ke liye  */
+@media (max-width: 768px) {
+    .opening-hours {
+        flex-direction: column ;
+    }
+    header {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+}   
+/* Mobile ke liye */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-about img {
+        width: 100px;
+    }
+
+    .footer-paragraph {
+        flex-direction: column;
+        gap: 10px;
+    }
+}        
